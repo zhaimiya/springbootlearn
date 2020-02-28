@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.vi.mapper.DictCooperationRegionMapper" >
+  <resultMap id="BaseResultMap" type="com.vi.pojo.DictCooperationRegion" >
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="ID" property="id" jdbcType="VARCHAR" />
+    <result column="NODE_NAME" property="nodeName" jdbcType="VARCHAR" />
+    <result column="PROVINCE_ID" property="provinceId" jdbcType="VARCHAR" />
+    <result column="PROVINCE_NAME" property="provinceName" jdbcType="VARCHAR" />
+    <result column="CITY_ID" property="cityId" jdbcType="VARCHAR" />
+    <result column="CITY" property="city" jdbcType="VARCHAR" />
+    <result column="COUNTY_ID" property="countyId" jdbcType="VARCHAR" />
+    <result column="COUNTY_NAME" property="countyName" jdbcType="VARCHAR" />
+    <result column="TOWN_ID" property="townId" jdbcType="VARCHAR" />
+    <result column="TOWN_NAME" property="townName" jdbcType="VARCHAR" />
+    <result column="VILLAGE_ID" property="villageId" jdbcType="VARCHAR" />
+    <result column="VILLAGE_NAME" property="villageName" jdbcType="VARCHAR" />
+    <result column="PID" property="pid" jdbcType="VARCHAR" />
+    <result column="ALL_NAME" property="allName" jdbcType="LONGVARCHAR" />
+    <result column="CODE" property="code" jdbcType="LONGVARCHAR" />
+  </resultMap>
+
+
+</mapper>
